@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #e0dede;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calCon{
+    width: 45%;
+    height: 60%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    box-shadow: rgba(53, 42, 42, 0.35) 5px 5px 15px;
+    border-radius: 3px;
+}
+
+.top{
+    width: 95%;
+    height: 20%;
+    background-color: #f7ecec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top input{
+    width: 100%;
+    height: 90%;
+    background-color: #fff;
+    border-radius: 5px;
+    /* border: 2px solid rgb(243, 240, 240); */
+    padding: 8px, 5px;
+    box-shadow: inset rgba(95, 93, 93, 0.35) 3px 3px 10px 3px;
+    border: 0;
+    outline: 0;
+    text-align: right;
+    direction: rtl;
+}
+
+.bottom{
+    width: 85%;
+    height: 70%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom button{
+    width: 60px;
+    height: 40px;
+    box-shadow: rgba(54, 53, 53, 0.35) 3px 3px 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 0;
+}
+
+.row{
+    width: 100%;
+    /* height: 20%; */
+    /* background-color: #a03030; */
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttonOne{
+    width: 60px;
+    height: 40px;
+}
+.buttonOne button{
+    background-color: pink;
+}
+.buttonTwo{
+    width: 60px;
+    height: 40px;
+}
+.buttonTwo button{
+    background-color: rgb(55, 221, 55);
+}
+.buttonThree{
+    width: 60px;
+    height: 40px;
+}
+.buttonThree button{
+    background-color: turquoise;
+}
